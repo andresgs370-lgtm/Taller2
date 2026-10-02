@@ -6,7 +6,7 @@ import {Paginacomponents} from './components/paginacomponents/paginacomponents';
 
 const routes: Routes = [
 
-  { path: ' ', component: Paginacomponents },
+  { path: '', component: Paginacomponents },
   { path: 'nuevoPais', component: Paiscomponent },
 ];
 
