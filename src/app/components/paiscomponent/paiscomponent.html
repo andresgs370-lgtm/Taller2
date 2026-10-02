@@ -1,1 +1,80 @@
-<p>paiscomponent works!</p>
+<div class="container my-4">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-8">
+
+      <div class="card tarjeta-pais shadow-sm">
+        <div class="card-header encabezado-pais text-center">
+          <h2 class="mb-0">Registrar nuevo país</h2>
+        </div>
+
+        <div class="card-body p-4">
+          <form class="row g-3">
+
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Nombre del país</label>
+              <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ej: Colombia" required>
+            </div>
+
+            <div class="col-md-6">
+              <label for="capital" class="form-label">Capital</label>
+              <input type="text" id="capital" name="capital" class="form-control" placeholder="Ej: Bogotá" required>
+            </div>
+
+            <div class="col-md-6">
+              <label for="continente" class="form-label">Continente</label>
+              <select id="continente" name="continente" class="form-select" required>
+                <option value="" selected disabled>Selecciona...</option>
+                <option>América</option>
+                <option>Europa</option>
+                <option>Asia</option>
+                <option>África</option>
+                <option>Oceanía</option>
+                <option>Antártida</option>
+              </select>
+            </div>
+
+            <div class="col-md-6">
+              <label for="idioma" class="form-label">Idioma oficial</label>
+              <input type="text" id="idioma" name="idioma" class="form-control" placeholder="Ej: Español">
+            </div>
+
+            <div class="col-md-4">
+              <label for="poblacion" class="form-label">Población</label>
+              <input type="number" id="poblacion" name="poblacion" class="form-control" min="0" placeholder="52000000">
+            </div>
+
+            <div class="col-md-4">
+              <label for="area" class="form-label">Área (km²)</label>
+              <input type="number" id="area" name="area" class="form-control" min="0" placeholder="1141748">
+            </div>
+
+            <div class="col-md-4">
+              <label for="moneda" class="form-label">Moneda</label>
+              <input type="text" id="moneda" name="moneda" class="form-control" placeholder="Peso colombiano">
+            </div>
+
+            <div class="col-12">
+              <label for="bandera" class="form-label">URL de la bandera</label>
+              <div class="input-group">
+                <span class="input-group-text">🏳️</span>
+                <input type="url" id="bandera" name="bandera" class="form-control" placeholder="https://...">
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="descripcion" class="form-label">Descripción</label>
+              <textarea id="descripcion" name="descripcion" class="form-control" rows="3" placeholder="Cuéntanos algo sobre el país..."></textarea>
+            </div>
+
+            <div class="col-12 d-flex justify-content-end gap-2 mt-4">
+              <button type="reset" class="btn btn-outline-secondary px-4">Limpiar</button>
+              <button type="submit" class="btn btn-guardar px-4">Guardar país</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

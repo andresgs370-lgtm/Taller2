@@ -1,0 +1,50 @@
+.tarjeta-pais {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.encabezado-pais {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.encabezado-pais h2 {
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: .9rem;
+  color: #343a40;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: .55rem .75rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #6610f2;
+  box-shadow: 0 0 0 .2rem rgba(102, 16, 242, .15);
+}
+
+.btn-guardar {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.btn-guardar:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 16, 242, .35);
+}
