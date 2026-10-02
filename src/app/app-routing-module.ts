@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { Paiscomponent } from './components/paiscomponent/paiscomponent';
 
 const routes: Routes = [
+
   { path: 'nuevoPais', component: Paiscomponent },
 ];
 
