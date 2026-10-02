@@ -1,0 +1,98 @@
+.tarjeta-lista {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.encabezado-lista {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.encabezado-lista h2 {
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+}
+
+.fila-pais {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .85rem 1.25rem;
+  transition: background .15s ease;
+}
+
+.fila-pais:hover {
+  background: #f8f9fa;
+}
+
+.bandera {
+  width: 56px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
+  background: #e9ecef;
+  flex-shrink: 0;
+}
+
+.nombre-fila {
+  flex: 1;
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size: 1rem;
+  color: #212529;
+}
+
+.acciones {
+  display: flex;
+  gap: .4rem;
+}
+
+.acciones .btn {
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-mostrar {
+  background: #0d6efd;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-actualizar {
+  background: #ffc107;
+  color: #212529;
+  border: none;
+}
+
+.btn-eliminar {
+  background: #dc3545;
+  color: #ffffff;
+  border: none;
+}
+
+.acciones .btn:hover {
+  color: inherit;
+  opacity: .88;
+}
+
+.btn-mostrar:hover,
+.btn-eliminar:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .fila-pais {
+    flex-wrap: wrap;
+  }
+
+  .nombre-fila {
+    flex-basis: calc(100% - 72px);
+  }
+
+  .acciones {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}

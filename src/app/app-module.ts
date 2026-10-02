@@ -7,6 +7,7 @@ import { Footercomponent } from './components/footercomponent/footercomponent';
 import { Paiscomponent } from './components/paiscomponent/paiscomponent';
 import { Paginacomponents } from './components/paginacomponents/paginacomponents';
 import { Buscarcomponent } from './components/buscarcomponent/buscarcomponent';
+import { Paisescomponent } from './components/paisescomponent/paisescomponent';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { Buscarcomponent } from './components/buscarcomponent/buscarcomponent';
     Paiscomponent,
     Paginacomponents,
     Buscarcomponent,
+    Paisescomponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideBrowserGlobalErrorListeners()],
