@@ -6,9 +6,17 @@ import { Navbarcomponent } from './components/navbarcomponent/navbarcomponent';
 import { Footercomponent } from './components/footercomponent/footercomponent';
 import { Paiscomponent } from './components/paiscomponent/paiscomponent';
 import { Paginacomponents } from './components/paginacomponents/paginacomponents';
+import { Buscarcomponent } from './components/buscarcomponent/buscarcomponent';
 
 @NgModule({
-  declarations: [App, Navbarcomponent, Footercomponent, Paiscomponent, Paginacomponents],
+  declarations: [
+    App,
+    Navbarcomponent,
+    Footercomponent,
+    Paiscomponent,
+    Paginacomponents,
+    Buscarcomponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
