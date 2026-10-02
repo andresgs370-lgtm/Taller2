@@ -1,9 +1,9 @@
 .footer {
   width: 100%;
 
-  background-color: #111111;
+  background-color: #d3d3d3;
 
-  color: white;
+  color: #111111;
 
   font-family: Arial, Helvetica, sans-serif;
 
@@ -41,7 +41,7 @@
 .footer-descripcion {
   margin: 0;
 
-  color: #bbbbbb;
+  color: #111111;
 
   font-size: 14px;
 
@@ -63,11 +63,11 @@
 
   font-weight: 600;
 
-  color: white;
+  color: #111111;
 }
 
 .footer-seccion a {
-  color: #bbbbbb;
+  color: #111111;
 
   font-size: 14px;
 
@@ -77,7 +77,7 @@
 }
 
 .footer-seccion a:hover {
-  color: white;
+  color: #111111;
 
   text-decoration: underline;
 }
@@ -85,7 +85,7 @@
 .footer-seccion p {
   margin: 0;
 
-  color: #bbbbbb;
+  color: #111111;
 
   font-size: 14px;
 
@@ -105,7 +105,7 @@
 .footer-inferior p {
   margin: 0;
 
-  color: #888888;
+  color: #111111;
 
   font-size: 13px;
 }
