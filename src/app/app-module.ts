@@ -5,9 +5,10 @@ import { App } from './app';
 import { Navbarcomponent } from './components/navbarcomponent/navbarcomponent';
 import { Footercomponent } from './components/footercomponent/footercomponent';
 import { Paiscomponent } from './components/paiscomponent/paiscomponent';
+import { Paginacomponents } from './components/paginacomponents/paginacomponents';
 
 @NgModule({
-  declarations: [App, Navbarcomponent, Footercomponent, Paiscomponent],
+  declarations: [App, Navbarcomponent, Footercomponent, Paiscomponent, Paginacomponents],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
